@@ -1,0 +1,361 @@
+/* Card-1 */
+#Card-1{
+    background-color:blueviolet;
+    width: 400px;
+    padding: 50px 30px;
+    margin: 50px 50px;
+    display: inline-block;
+
+}
+.heading_1{
+    font-size: 50px;
+    color: #F7BBFA;
+}
+.paragraph_1{
+    font-size: 30px;
+    color: white;
+    line-height: 45px;
+    letter-spacing: 3px;
+    text-align: justify;
+    transition: 3ms;
+
+}
+.paragraph_1:hover{
+    font-size: 30px;
+    color: #F7FF00;
+    line-height: 45px;
+    letter-spacing: 3px;
+    text-align: justify;
+
+}
+
+.link_1{
+    text-decoration: none;
+    background-image: url(../image/card\ 1\ a.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    text-align: center;
+    line-height: 60px ;
+    width: 150px;
+    height: 60px;
+    display: inline-block;
+    transition: 5ms;
+
+
+}
+
+.link_1:hover{
+    text-decoration: none;
+    background-image: url(../image/card\ 1\ a2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    text-align: center;
+    line-height: 60px ;
+    width: 200px;
+    height: 60px;
+    display: inline-block;
+    transition: 5ms;
+}
+
+/* Card-2 */
+#Card-2{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    padding: 50px 30px;
+    margin: 50px 50px;
+    border: 3px solid rgb(73, 0, 146);
+    border-radius: 30px;
+    display: inline-block;
+    transition: 10ms;
+}
+#Card-2:hover{
+    background-color: rgb(73, 0, 146);
+    width: 400px;
+    padding: 50px 30px;
+    margin: 50px 50px;
+    border-radius: 50px;
+    display: inline-block;
+}
+#Card-2:hover .paragraph_2{
+    color:#ffffff;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 3px;
+    text-align: justify;
+
+}
+#Card-2:hover .heading_2{
+    font-size: 50px;
+    color: #ffffff;
+
+}
+
+.paragraph_2{
+    color:#82827B;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 3px;
+    text-align: justify;
+}
+.heading_2{
+    font-size: 50px;
+    color: #5c0161;
+}
+.link_2{
+    color:#5c0161;
+    font-size: 30px;
+    background-color: #F7BBFA;
+    text-align: center;
+    line-height: 50px;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+/* Card-3 */
+#Card-3{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    padding: 50px 30px;
+    margin: 50px 50px;
+    border: 3px solid rgb(156, 155, 156);
+    border-radius: 30px;
+    display: inline-block;
+    transition: 10ms;
+    text-align: center;
+}
+#Card-3:hover{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    border: 3px solid #FF4200;
+    border-radius: 30px;
+}
+
+.paragraph_3{
+    color:#82827B;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+.heading_3{
+    font-size: 50px;
+    color: #4b4a4b;
+    padding: 5px 10px;
+    color: #FF4200;
+}
+.link_3{
+    color:white;
+    font-size: 30px;
+    background-color: #FF4200;
+    text-align: center;
+    line-height: 50px;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    transition: 10ms;
+}
+.link_3:hover{
+    color: #FF4200;
+    background-color: white;
+    border:3px solid #FF4200;  
+
+}
+.image-1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+/* Card-4 */
+#Card-4{
+    background-color: rgba(0, 0, 0, 0.432);
+    background-image: url(../image/image\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+    width: 400px;
+    padding: 50px 30px;
+    margin: 50px 50px;
+    border: 3px solid rgb(156, 155, 156);
+    border-radius: 30px;
+    display: inline-block;
+    transition: 10ms;
+    text-align: center;
+}
+#Card-4:hover{
+    width: 400px;
+    border: 3px solid #00ff22;
+    border-radius: 30px;
+}
+
+.paragraph_4{
+    color:#ffffff;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+.heading_4{
+    font-size: 50px;
+    padding: 5px 10px;
+    color: #00ff22;
+}
+.link_4{
+    color:white;
+    font-size: 30px;
+    background-color: #00ff22;
+    text-align: center;
+    line-height: 50px;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    transition: 10ms;
+}
+.link_4:hover{
+    color: #00ff22;
+    background-image: url(../image/image\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    border:3px solid #00ff22;  
+
+}
+
+/* Card-5  */
+#Card-5{
+    background-image: linear-gradient(to top,rgb(118, 180, 252),rgb(3, 93, 196));
+    width: 400px;
+    padding: 50px 30px;
+    margin: 50px 50px;
+    border: 3px solid rgb(156, 155, 156);
+    border-radius: 30px;
+    display: inline-block;
+    transition: 10ms;
+    text-align: center;
+}
+#Card-5:hover{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    border: 3px solid #011d96ee;
+    border-radius: 30px;
+}
+
+.paragraph_5{
+    color:white;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+.heading_5{
+    font-size: 50px;
+    color: #4b4a4b;
+    padding: 5px 10px;
+    color: white;
+}
+.link_5{
+    color:white;
+    font-size: 30px;
+    background-color: #011d96ee;
+    text-align: center;
+    line-height: 50px;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    transition: 10ms;
+}
+.link_5:hover{
+    color: #011d96ee;
+    background-color: white; 
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+
+}
+.image-2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:3px solid #011d96ee;
+
+}
+
+/* Card-6 */
+#Card-6{
+    background-image: linear-gradient(to left,rgb(183, 0, 255),rgb(51, 1, 53));
+    width: 400px;
+    padding: 50px 30px;
+    margin: 50px 50px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: 10ms;
+    text-align: center;
+}
+#Card-6:hover{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    border-radius: 50px;
+}
+
+.paragraph_6{
+    color:white;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+.heading_6{
+    font-size: 50px;
+    color: #4b4a4b;
+    padding: 5px 10px;
+    color: white;
+}
+.link_6{
+    color:white;
+    font-size: 30px;
+    background-color: #011d96ee;
+    text-align: center;
+    line-height: 50px;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    transition: 10ms;
+}
+.link_6:hover{
+    color: #011d96ee;
+    background-color: white; 
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+
+}
+.image-3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:3px solid #011d96ee;
+
+}
